@@ -15,3 +15,8 @@ function moveToPortfolio(){
         scrollTop: $("#portfolio").offset().top
     }, 2000);
 }
+function moveToContact(){
+	$('html, body').animate({
+        scrollTop: $("#contactme").offset().top
+    }, 2000);
+}
