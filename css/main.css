@@ -15,9 +15,6 @@ padding-top:2px;
         overflow: hidden;
     }
     .google-maps iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100% !important;
         height: 100% !important;
     }
