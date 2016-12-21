@@ -1,20 +1,12 @@
+.row {
+    margin-bottom: 0px !important;
+}
 .inline li{
 display: inline !important;
 list-style-type: none !important;
 list-style-position:inside;
-border: 1px solid white;
 padding-bottom:2px;
 padding-left:2px;
 padding-right:2px;
 padding-top:2px;	
 }
- .google-maps {
-        position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
-        height: 0;
-        overflow: hidden;
-    }
-    .google-maps iframe {
-        width: 100% !important;
-        height: 100% !important;
-    }

@@ -11,29 +11,29 @@
 
 </head>   
 <body>
-	<div class="navbar-fixed">
-	<nav>
-    <div class="nav-wrapper  teal lighten-3">
+	<div class="navbar-fixed row">
+	<nav class="teal darken-2">
+    <div class="col l10 m10 offset-l1 offset-m1 nav-wrapper  teal darken-2">
       <a href="#" class="brand-logo">Niketa Rachhadia</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">Home</a></li>
-        <li><a href="#" onclick="moveToAboutMe();">About Me</a></li>
-        <li><a href="#" onclick="moveToPortfolio();">My Portfolio</a></li>
-		<li><a href="#" onclick="moveToContact();">Contact Me</a></li>
+        <li><a href="#" onclick="moveToAboutMe();">About</a></li>
+        <li><a href="#" onclick="moveToPortfolio();">Portfolio</a></li>
+		<li><a href="#" onclick="moveToContact();">Contact</a></li>
       </ul>
     </div>
   </nav>
   </div>
   <div class="parallax-container row">
       <div class="parallax valign-wrapper col s12 l12 m12" style="background-image: url(images/parallax1.jpg); background-size:cover">		
-		  <h1 class="valign flow-text center-align white-text col s12 l12 m12">Web Development Enthusiast including Front End, Back End and DevOps</h1>
+		  <h1 class="valign flow-text center-align white-text col s12 l12 m12">Web Development Enthusiast experienced in Front End, Back End and DevOps</h1>
 	  </div>
     </div>
   <div id="aboutme" class="row">
-	<div class="teal col lighten-3 s12 l12 m12 white-text">
-			<h4 class="center-align">About Me</h4>
+	<div class="teal col darken-2 s12 l12 m12 white-text">
+			<h4 class="center-align">About</h4>
 		</div>
-	<div class="teal lighten-2 col s12 l12 m12">
+	<div class="teal darken-2 col s12 l12 m12">
 		<div class="teal lighten-1 col s12 l8 m8 offset-l2 offset-m2">
 			<div class="white-text">
 			  <p class="center-align">Leveraging recent education and practice of theories that support modern web development through Thinkful’s Web Development Bootcamp combined with computer engineering background to transition into a role as <strong>Full Stack Web Developer</strong></p>
@@ -87,93 +87,142 @@
         
       </div>
   </div>
-  <div id="portfolio" class="teal lighten-2">
+  <div id="portfolio" class="teal darken-2">
 	<div class="row">
-		<div class="teal col lighten-3 s12 l12 m12 white-text">
+		<div class="teal col darken-2 s12 l12 m12 white-text">
 			<h4 class="center-align">Portfolio</h4>
 		</div>
 	<div class="row">
-		<div class="teal col lighten-1 s12 l6 m6">
+		<div class=" col  s12 l5 m5 offset-l1 offset-m1">
             <div class="white-text">
-              <strong>THE OPEN NEWS  </strong>
-              <p class="center-align">THE OPEN NEWS is a content focused, no frills, light weight. and responsive web client application. The idea is to provide a platform for people to glance at news quickly and move on with their lives.
-The app is built using HTML5, JavaScript(JQuery), CSS, Bing News Search API and YouTube search API</p>
-				<div class="row">
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3" href="https://github.com/niketarachhadia/open-news1" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3 offset-l6 offset-m6 offset-s6" href="https://niketarachhadia.github.io/open-news1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Launch</a>
-				</div>
+              <p class="center-align">
+				  <ul class="collapsible teal lighten-1" data-collapsible="accordion">
+					<li>
+					  <div class="collapsible-header lighten-1 teal row">
+						<div class="col s11 l11 m11">THE OPEN NEWS</div>
+						<div class="col s1 l1 m1">
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+					  </div>
+					  <div class="collapsible-body"><p>THE OPEN NEWS is a content focused, no frills, light weight and responsive web application. The idea is to provide a platform for people to glance at news quickly and move on with their lives. The app is built using HTML5, JavaScript(JQuery), CSS, Bing News Search API and YouTube search API</p></div>
+					</li>
+					
+				  </ul>
+			</p>
 				<img src="images/on1.png" class="responsive-img"/>
-			  
-            </div>
-          </div>
-		  <div class="teal col lighten-1 s12 l6 m6">
-            <div class="white-text">
-              <strong>XML2JSON Converter</strong>
-              <p class="center-align">XML2JSON is a simple and efficient tool for converting XML documents to JSON format. The tool also stores all converted documents on server side for future retrieval.
-On Server side, REST APIs are built using Node and ExpressJS storing documents in MongoDB. The client web application is built using HTML5, CSS and JavaScript(JQuery).</p>
 				<div class="row">
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3" href="https://github.com/niketarachhadia/xml2json-Converter" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3 offset-l6 offset-m6 offset-s6" href="https://still-sierra-81249.herokuapp.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Launch</a>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3 offset-l3 offset-m3 offset-s3" href="https://github.com/niketarachhadia/open-news1" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
+					<div class="col s1 l2 m2">&nbsp</div>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3" href="https://niketarachhadia.github.io/open-news1" target="_blank"><i class="fa fa-play" aria-hidden="true"></i>Demo</a>
 				</div>
+            </div>
+          </div>
+		  
+		  <div class="col  s12 l5 m5">
+            <div class="white-text">
+              <p class="center-align">
+			  <ul class="collapsible teal lighten-1" data-collapsible="accordion">
+					<li>
+					  <div class="collapsible-header lighten-1 teal row">
+						<div class="col s11 l11 m11">XML2JSON</div>
+						<div class="col s1 l1 m1">
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+					  </div>
+					  <div class="collapsible-body"><p>XML2JSON is a simple and efficient tool for converting XML documents to JSON format. The tool also stores all converted documents on server side for future retrieval.
+						On Server side, REST APIs are built using Node and ExpressJS storing documents in MongoDB. The client web application is built using HTML5, CSS and JavaScript(JQuery).</p></div>
+					</li>
+					
+				  </ul>
+			  </p>
 				<img src="images/x2j.png" class="responsive-img"/>
+				<div class="row">
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3 offset-l3 offset-m3 offset-s3" href="https://github.com/niketarachhadia/xml2json-Converter" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
+					<div class="col s1 l2 m2">&nbsp</div>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3" href="https://still-sierra-81249.herokuapp.com/" target="_blank"><i class="fa fa-play" aria-hidden="true"></i>Demo</a>
+				</div>
 			  
             </div>
           </div>
+		</div>
+		<div class="row teal darken-2">
+			<span>&nbsp</span>
 		</div>
 		<div class="row">
-		<div class="teal col lighten-1 s12 l6 m6">
+		<div class="col s12 l5 m5 offset-l1 offset-m1">
             <div class="white-text">
-              <strong>Standardly</strong>
-              <p class="center-align">Standardly is a web based client to standardize US addresses using Smarty Streets API.</p>
-				<div class="row">
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3" href="https://github.com/niketarachhadia/av" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3 offset-l6 offset-m6 offset-s6" href="https://niketarachhadia.github.io/av/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Launch</a>
-				</div>
+			  <p class="center-align">
+			  <ul class="collapsible teal lighten-1" data-collapsible="accordion">
+				<li>
+				  <div class="collapsible-header lighten-1 teal row">
+					<div class="col s11 l11 m11">Standardly</div>
+					<div class="col s1 l1 m1">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</div>
+				  </div>
+				  <div class="collapsible-body"><p>Standardly is a web based client to standardize US addresses using Smarty Streets API.
+					The app utilizes React ecosystem libraries and components along with Redux for state management</p></div>
+				</li>
+				
+			  </ul>
+			  </p>
 				<img src="images/standardly.png" class="responsive-img"/>
-			  
-            </div>
-          </div>
-		  <div class="teal col lighten-1 s12 l6 m6">
-            <div class="white-text">
-              <strong>WorthySum  </strong>
-              <p class="center-align">WorthySum enables users to track their networth with auto-calculation.</p>
 				<div class="row">
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3" href="https://github.com/niketarachhadia/worthysum" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
-					<a class="waves-effect waves-light btn col s3 m3 l3 teal lighten-3 offset-l6 offset-m6 offset-s6" href="https://frozen-depths-73790.herokuapp.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Launch</a>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3 offset-l3 offset-m3 offset-s3" href="https://github.com/niketarachhadia/av" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
+					<div class="col s1 l2 m2">&nbsp</div>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3" href="https://niketarachhadia.github.io/av/" target="_blank"><i class="fa fa-play" aria-hidden="true"></i>Demo</a>
 				</div>
-				<img src="images/ws.png" class="responsive-img"/>
+			  
+            </div>
+          </div>
+		  <div class="col  s12 l5 m5">
+            <div class="white-text">
+              <p class="center-align">
+				<ul class="collapsible teal lighten-1" data-collapsible="accordion">
+					<li>
+					  <div class="collapsible-header lighten-1 teal row">
+						<div class="col s11 l11 m11">WorthySum</div>
+						<div class="col s1 l1 m1">
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+					  </div>
+					  <div class="collapsible-body"><p>WorthySum enables users to track their networth with auto-calculation. The app features authentication, auto-save and d3.js based charting functionality. The backend REST APIs are built using Node, Express, Mongoose and Passport. The front end is a React app built using Redux framework</p></div>
+					</li>
+					
+				  </ul>
+			  </p>
+			  	<img src="images/ws.png" class="responsive-img"/>
+				<div class="row">
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3 offset-l3 offset-m3 offset-s3" href="https://github.com/niketarachhadia/worthysum" target="_blank"><i class="fa fa-code" aria-hidden="true"\></i>Code</a>
+					<div class="col s1 l2 m2">&nbsp</div>
+					<a class="waves-effect waves-light btn col s2 m2 l2 teal lighten-3" href="https://frozen-depths-73790.herokuapp.com/" target="_blank"><i class="fa fa-play" aria-hidden="true"></i>Demo</a>
+				</div>
 			  
             </div>
           </div>
 		</div>
 	</div>
   </div>
-  <div id="contactme" class="teal lighten-2">
+  <div id="contactme" class="teal darken-2">
 	<div class="row">
-		<div class="teal col lighten-3 s12 l12 m12 white-text">
-			<h4 class="center-align">Contact Me</h4>
+		<div class="teal col darken-2 s12 l12 m12 white-text">
+			<h4 class="center-align">Contact</h4>
 		</div>
 	<div class="row">
-		<div class="col s12 l6 m6 white-text center-align">
-            <p>Email: niketa.rachhadia@gmail.com</p>
-			<p>Phone: +1 919 889 8532</p>
-			<p>Location: Wylie, TX, 75098</p>
-          </div>
-		<div class="col s12 l6 m6 white-text center-align google-maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107034.78487027877!2d-96.5794538423348!3d33.034423852311726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c0448e8c3fc93%3A0x43e188f4943f1251!2sWylie%2C+TX!5e0!3m2!1sen!2sus!4v1482176517298" width="600" height="450" frameborder="0" style="border:0" ></iframe>
-          </div>
+		<div class="row">
+			<div class="col s12 l6 m6 white-text center-align offset-l3 offset-m3">
+				<p>Email: niketa.rachhadia@gmail.com</p>
+				<p>Phone: +1 919 889 8532</p>
+				<p>
+					<a class="btn-floating blue s3 l2 m2 offset-s2 offset-l2 offset-m2" href="https://www.linkedin.com/in/niketa-rachhadia-90a00b130" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a class="btn-floating yellow darken-1 s3 l2 m2" href="https://github.com/niketarachhadia" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a class="btn-floating green s3 l2 m2" href="mailto:niketa.rachhadia@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</p>
+			  </div>
+	    </div>
+		  
 	</div>
 	</div>
-  </div>
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons">perm_identity</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating blue" href="https://www.linkedin.com/in/niketa-rachhadia-90a00b130" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li><a class="btn-floating yellow darken-1" href="https://github.com/niketarachhadia" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-      <li><a class="btn-floating green" href="mailto:niketa.rachhadia@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-    </ul>
   </div>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="./js/app.js"></script>
